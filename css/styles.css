@@ -1,0 +1,179 @@
+@import url(../fonts/SourceCodePro-Regular.ttf);
+
+/* Common Styles */
+    body{
+        background-color: #1a1b4b;
+        color: #f7a300;
+        font-family: 'Sulphur Point', sans-serif;;
+    }
+
+    header, footer{
+        background-color: #292a73;
+        font-family: 'Source Code Pro', monospace;
+    }
+
+    first-name, last-name{
+        font-family: 'Source Code Pro', monospace;
+    }
+
+    .light-blue{
+        color: #3a9efd;
+    }
+
+    .text-links, .text-links:visited{
+        padding: 0 2em;
+        font-size: 1.25em;
+        color:#f7a300;
+        text-decoration: none;
+    }
+    a:hover, .text-links:hover{
+        color:#3a9efd;
+        -webkit-transition: 0.3s;
+        transition: 0.3s;
+    }
+
+    #content{
+        background-color: #3e4491;
+    }
+
+    .contact-icon{
+        color:#f7a300;
+        float: right;
+        width: 1.5em;
+        padding: 0 2em;
+    }
+
+    .contact-icon:hover{
+        color: #3a9efd
+    }
+    
+/* Index Styles */
+    #matt-intro{
+        padding: 10% 10%;
+    }
+
+    img{
+        width: 100%;
+    }
+
+    #matt-intro > h2, #matt-intro > h3{
+        text-transform: uppercase;
+    }
+
+/* About Styles */
+    #goals{
+        padding-left: 10px;
+    }
+
+    #skills > h3{
+        padding-left: 2em;
+    }
+    #skills > p{
+        padding-left: 4em;
+    }
+
+    .specific{
+        list-style-image: url('../images/smart/s.svg');
+    }
+
+    .measureable{
+        list-style-image: url('../images/smart/m.svg');
+    }
+
+    .achievable{
+        list-style-image: url('../images/smart/a.svg');
+    }
+
+    .relevent{
+        list-style-image: url('../images/smart/r.svg');
+    }
+
+    .time{
+        list-style-image: url('../images/smart/t.svg');
+    }
+/* Profile Styles */
+    th{
+        text-align: left;
+    }
+
+    .course-container, .employment-container{
+        padding: 10px;
+        -webkit-box-shadow:0px 1px 10px 1px #1a1b4b;
+                box-shadow:0px 1px 10px 1px #1a1b4b;
+    }
+
+    .profile-section > div > ul{
+        list-style: none;
+    }
+/* Projects Styles */
+    #project-section{
+        padding: 0 4em;
+    }
+
+    .project{
+        position: relative;
+        -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        background-color: #1a1b4b;
+        margin: 1.1em 1.1em;
+    }
+
+    .project > a{
+        color: #f7a300;
+        
+    }
+
+    .project-text-container{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+
+        background-color: #292a73;
+
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+    }
+
+    .project:hover .project-text-container{
+        opacity: 1;
+    }
+
+    .project-image{
+        display: block;
+        max-width: 100%;
+    }
+
+    .project-title{
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        width:100%;
+        -webkit-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+        text-align: center;
+        -webkit-transition: 0.5s;
+                transition: 0.5s; 
+    }
+
+    .project-details{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width:100%;
+        text-align: center;
+        -webkit-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+        -webkit-transition: 0.5s;
+                transition: 0.5s;
+    }
+/* SVG Styles */
+    .icon{
+        fill: currentColor;
+        -webkit-transition: .3s;
+                transition: .3s;
+    }

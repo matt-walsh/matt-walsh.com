@@ -1,0 +1,12 @@
+#content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#goals{
+    grid-column: 1 / 2;
+}
+
+#skills{
+    grid-column: 2 /3;
+}

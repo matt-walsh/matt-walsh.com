@@ -1,0 +1,28 @@
+#content{
+    display: grid;
+    grid-template-columns: 5em 1fr 1fr 5em;
+}
+
+#matt-intro{
+    grid-column: 2 / 3;
+}
+
+#image-container{
+    grid-column: 3 / 4;
+}
+
+/* Responsive Layouts*/
+@media only screen and (max-width: 1270px){
+    /* Remove the image from the layout */
+    #content{
+        grid-template-columns: 1em 1fr 1fr 1em;
+    }
+
+    #image-container{
+        display: none;
+    }
+
+    #matt-intro{
+        grid-column: 2 / 4;
+    }
+}
